@@ -1,5 +1,7 @@
 use std::collections::HashMap;
 
+fn main() {}
+
 fn valid_anagram(s: &String, t: &String) -> bool {
     if s.len() != t.len() {
         return false;
